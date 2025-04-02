@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>Tente abrir esse site em outro dispositivo, ou aumente e dimunia seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto.g.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio</p>
+    <audio preload="metadata" autoplay controls loop >
+        <source src="midia/Áudio do WhatsApp de 2025-03-17 à(s) 15.48.05_cef55341.opus" type="audio/mpeg">
+        <source src="midia/Áudio do WhatsApp de 2025-03-17 à(s) 15.48.05_cef55341.opus" type="audio/ogg">
+        <source src="midia/Áudio do WhatsApp de 2025-03-17 à(s) 15.48.05_cef55341.opus" type="audio/wav">
+        <p>infelizmentet seu navegador nao consegue reproduzir auido <a href="midia/Áudio do WhatsApp de 2025-03-17 à(s) 15.48.05_cef55341.opus">clique aqui para baixar o arquivo mp3</a></p>
+    </audio>
+
+</body>
+</html>
